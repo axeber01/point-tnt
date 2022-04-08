@@ -1,0 +1,7 @@
+h5py
+numpy
+torch==1.7
+torchsummary
+einops
+sklearn
+git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git@6b5e8953a80aef5b324104dc0c2e9b8c34d622bd
