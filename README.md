@@ -1,9 +1,11 @@
 # Point Transformer-in-Transformer
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/points-to-patches-enabling-the-use-of-self/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=points-to-patches-enabling-the-use-of-self)
+
 ![](./point-tnt.png)
 
 
-This is the official codebase for the implementation of **[Points to Patches: Enabling the Use of Self-Attention for 3D Shape Recognition](linktoarxiv)**, to be presented at ICPR2022.
+This is the official codebase for the implementation of **[Points to Patches: Enabling the Use of Self-Attention for 3D Shape Recognition](https://arxiv.org/abs/2204.03957)**, to be presented at ICPR2022.
 
 We introduce the Point Transformer-in-Transformer (Point-TnT) architecture, which applies self-attention hierarchically on edge features within patches of points, as well as on the patches themselves. This method outperforms the standard Transformer baseline in terms of classification accuracy, while also requiring less computation. This repository contains code for training and evaluating our method, as well as pre-trained models.
 
@@ -68,7 +70,12 @@ Again, results may vary slightly depending on the random seed, due to randomness
 If you find this work useful, please cite our paper:
 
 ````
-citation
+@article{berg2022points,
+  title={Points to Patches: Enabling the Use of Self-Attention for 3D Shape Recognition},
+  author={Berg, Axel and Oskarsson, Magnus and O'Connor, Mark},
+  journal={arXiv preprint arXiv:2204.03957},
+  year={2022}
+}
 ````
 
 ## Acknowledgements
